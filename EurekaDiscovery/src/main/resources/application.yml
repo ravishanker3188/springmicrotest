@@ -4,3 +4,9 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 server:
   port: 9090
+
+logging:
+  level:
+    ROOT: WARN
+    org.springframework: WARN
+
